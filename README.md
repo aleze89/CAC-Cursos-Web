@@ -15,3 +15,13 @@ Diariamente nos comunicamos con el grupo para actualizar los Daily Standup y rea
 3.¿Qué (si es que hay algo) está bloqueando tu progreso?
 
 Y de esa forma agilizar y compartir el avance del proyecto con el resto del equipo de trabajo.
+
+# Creacion de Ramas Individuales
+
+1.Copiar el repositorio remoto (GitHub) en su maquina con el comando $ git clone
+
+2.crear branch
+
+3.Modificar el documento README.md agregando el nombre de su Branch 
+
+4.
