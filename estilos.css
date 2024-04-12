@@ -1,0 +1,167 @@
+*{
+    
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+nav{
+
+    background: #FE9622;
+    height: 100px;
+    width: 100%;
+    /* hace que el navegador siempre ocupe toda la parte de arrbia*/
+}
+
+.logoo{
+    position: absolute;
+    padding: 20px 20px;
+}
+
+.ellogo{
+
+    width: 120px;
+    height: 60px;
+
+}
+
+nav ul{
+
+    float: right;
+    margin-right: 20px;
+
+}
+
+nav ul li{
+
+    display: inline-block;
+    line-height: 100px;
+    margin: 0 3px;
+
+}
+
+nav ul li a{
+
+    color: #000000;
+    font-size: 20px;
+    padding: 20px 30px;
+    border-radius: 2px;
+
+}
+
+li a.active, li a:hover{
+    background: #FE6822;
+    transition: .70s;
+    cursor:pointer;
+}
+
+.chekboton{
+
+    font-size: 60px;
+    color: #000000;
+    float: right;
+    line-height: 100px;
+    margin-right: 20px;
+    margin: 0px 20px;  
+    
+    cursor: pointer;
+    display: none;
+}
+
+#chek{
+    display: none;
+}
+
+section{
+    background: #FECC22;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+
+}
+
+@media (max-width: 950px){
+
+    nav{
+
+        background: #FE9622;
+        height: 80px;
+        width: 100%;
+       
+    }
+
+    .logo{
+        padding: 10px 10px;
+    }
+
+    .ellogo{
+
+        width: 100px;
+        height: 40px;
+    
+    }
+
+    nav ul{
+
+        float: right;
+        margin-right: 10px;
+    
+    }
+    
+    nav ul li{
+    
+        display: inline-block;
+        line-height: 80px;
+        margin: 0 2px;
+    
+    }
+    
+    nav ul li a{
+    
+        color: #000000;
+        font-size: 17px;
+        padding: 14px 22px;
+        border-radius: 1px;
+
+    }
+    
+}
+
+@media (max-width: 700px){
+    .chekboton{
+        display: block;
+    }
+
+    ul{
+        position: fixed;
+        width:100%;
+        height: 100vh;
+        background: #FE6822;
+        top:80px;
+        left: -100%;
+        
+        text-align: justify;
+        transition: all 1s;
+
+    }
+
+    nav ul li{
+        display: block;
+        margin: 50px 50px;
+        line-height: 40px;
+    }
+
+    nav ul li a{
+        font-size: 25px;
+    }
+
+    li a.hover, li a.active{
+        background: #fead22;
+    }
+
+    #chek:checked ~ul{
+        left:0;
+    }
+}
