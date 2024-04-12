@@ -22,6 +22,8 @@ Y de esa forma agilizar y compartir el avance del proyecto con el resto del equi
 
 2. crear branch
 
-3. Modificar el documento README.md agregando el nombre de su Branch 
+3. Modificar el documento README.md agregando el nombre de su Branch
+
+Branch de prueba - Pepito
 
 4.
